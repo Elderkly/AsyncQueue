@@ -17,9 +17,18 @@
     [...Array(10)].map((e,index) => createTimeout(index))
 ```
 
+![Before](https://github.com/Elderkly/ImgRepository/blob/master/AsyncQueue/1.gif)
+
 ## After
 ```javascript
     import AsyncQueue from './AsyncQueue.js'
     //  将异步任务通过AsyncQueue封装达到有序进行的效果
     [...Array(10)].map((e,index) => AsyncQueue(() => createTimeout(index)))
 ```
+
+![Before](https://github.com/Elderkly/ImgRepository/blob/master/AsyncQueue/2.gif)
+
+## LICENSE
+
+AsyncQueue is open source software licensed as
+[MIT.](https://github.com/Elderkly/AsyncQueue/blob/master/LICENSE)
