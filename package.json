@@ -1,0 +1,19 @@
+{
+  "name": "asyncqueue",
+  "version": "0.1.0",
+  "description": "让异步任务有序进行",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Elderkly/AsyncQueue.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Elderkly/AsyncQueue/issues"
+  },
+  "homepage": "https://github.com/Elderkly/AsyncQueue#readme"
+}
